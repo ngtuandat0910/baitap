@@ -233,6 +233,7 @@ void Menu::cmpAgeAnimal()
 */
 void Menu::display()
     {
+           printf("id\tTen\t\tTuoi\tChieuCao\tCanNang\tBMI\n");
         for (Animal &s:animalListT)
         {
            printf("%d\t%s\t%d\t%lf\t%lf\t%d\n",s.getId(),s.getName(),s.getAge(),s.getheight(),s.getWeight(),s.getBMI());
